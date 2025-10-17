@@ -3,7 +3,7 @@ package crudpoo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CrudUsuarios {
+public class CrudUsuarios CrudConsola<Usuario>{
     private ArrayList<Usuario> usuarios;
     public final Scanner scanner = new Scanner(System.in);
 
@@ -90,4 +90,5 @@ public class CrudUsuarios {
         }
     }
 }
+
 
